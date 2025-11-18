@@ -1,0 +1,6 @@
+book_id,title,author,copies
+B101,Python Programming,John Doe,3
+B102,Data Structures,Jane Smith,2
+B103,Algorithms,Cormen,1
+B104,Database Systems,Elmasri,4
+B105,Operating Systems,Tanenbaum,2
