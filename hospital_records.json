@@ -1,0 +1,27 @@
+{
+    "patients": {
+        "12": {
+            "name": "aman",
+            "patient_id": "12",
+            "age": "45",
+            "disease": "dengue",
+            "status": "Admitted",
+            "doctor_id": null
+        },
+        "p001": {
+            "name": "sunil",
+            "patient_id": "p001",
+            "age": "20",
+            "disease": "fever",
+            "status": "Discharged",
+            "doctor_id": "d001"
+        }
+    },
+    "doctors": {
+        "d001": {
+            "name": "dr mehta",
+            "doctor_id": "d001",
+            "specialization": "general physician"
+        }
+    }
+}
