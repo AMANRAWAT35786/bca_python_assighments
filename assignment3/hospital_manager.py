@@ -14,9 +14,9 @@ A complete menu-driven Hospital Patient Management System using:
 import json
 from pathlib import Path
 
-
+# -------------------------
 # Base Person Class
-
+# -------------------------
 
 class Person:
     """Base class for Patient and Doctor"""
@@ -32,9 +32,9 @@ class Person:
         return self.__str__()
 
 
-
+# -------------------------
 # Patient Class
-
+# -------------------------
 
 class Patient(Person):
     def __init__(self, name, patient_id, age, disease, status="Admitted"):
@@ -64,9 +64,9 @@ class Patient(Person):
         }
 
 
-
+# -------------------------
 # Doctor Class
-
+# -------------------------
 
 class Doctor(Person):
     def __init__(self, name, doctor_id, specialization):
